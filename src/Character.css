@@ -1,0 +1,17 @@
+.character-container {
+  border: 0.125rem solid #1c1c1c;
+  background-color: white;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.character-container:focus {
+  border: 0.1875rem solid blue;
+}
+
+.character-container:hover {
+  transform: scale(1.1);
+  transition: 0.3s all;
+}
